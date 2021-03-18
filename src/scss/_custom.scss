@@ -1,0 +1,247 @@
+// // Here you can add other styles
+.sidebar .nav-dropdown-items{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%) !important;
+    padding-left: 20px !important;
+    box-shadow: inset 2px 2px 3px #1e2c46;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img.navbar-brand-full {
+    height: 70%;
+}
+.sidebar, .card-header,thead,tfoot,.bg-brand{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%) !important;
+    color: #a2b4d2;
+}
+.header-btn{
+    margin-left: 5px;
+}
+.login-indicator{
+    position: absolute;
+    margin-left: 15px;
+}
+
+.sidebar .nav-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #a2b4d2;
+    text-decoration: none;
+    background: transparent;
+}
+.sidebar .nav-link:hover{
+    background: transparent;
+    color: #fff;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-right: 10px;
+    // margin-bottom: 5px;
+    // margin-top: 5px;
+    
+}
+.sidebar .nav-dropdown.open {
+    background: transparent;
+}
+.sidebar .nav-link .nav-icon{
+    color: #a2b4d2;
+}
+.sidebar .nav-link.active .nav-icon {
+    color: #fff;
+}
+.sidebar .nav-dropdown.open > .nav-dropdown-items {
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+    // @media (min-width: 992px){
+    //     html:not([dir="rtl"]) .sidebar-lg-show .sidebar, html:not([dir="rtl"]) .sidebar-show .sidebar {
+    //         margin-left: 10px;
+    //     }
+    //     // html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .app-footer{
+    //     //     margin-left:240px !important;
+            
+    //     // }
+    //     // .footer-wrapper{
+    //     //     margin-left: 230px !important;
+    //     // }
+    // }
+
+    .sidebar{
+        // margin-top: 20px;
+        // margin-bottom: 10px;
+        // border-radius: 5px;
+        // box-shadow: 6px 5px 10px #162136;
+        // height: 82vh !important;
+    }
+    .app-body .main {
+        margin-top:20px;
+        // margin-bottom: 50px;
+    }
+    .app-header.navbar{
+        // margin: 10px;
+        // border-radius: 5px;
+        // box-shadow: 2px 2px 5px #162136;
+        // width: 97%;
+    }
+    .app-footer{
+        // margin-bottom: 10px;
+        // border-radius: 5px;
+        // box-shadow: 2px 2px 5px #162136;
+        // margin-left: 0px !important;
+        // z-index: 99999;
+        // width: 100%;
+        // // width: 100% !important;
+        // position: fixed;
+        // bottom: 0px;
+        // padding: 5px 10px;
+    }
+
+    .modal-dialog {
+        // width: 100%;
+        // margin-top: 10%;
+      }
+      .logs-thead{
+          padding: 2px !important;
+          background: #f2f2f2;
+          height: 5px;
+      }
+
+      .login-bg{
+        background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%) !important;
+      }
+
+      .btn-orange {
+        background: #fb8b44;
+        color: #fff;
+        border-color: #ffa56c;
+    }
+    .btn-orange:hover {
+        background: #f57f28;
+        color: #fff;
+        border-color: #f78135;
+    }
+    .btn-orange:active {
+        background-color: #f57f28 !important;
+        color: #fff !important;
+        border-color: #f78135 !important;
+    }
+
+    a.box-a{
+        text-decoration: none;
+        color: #274d8f;
+        transition: 0.2s;
+        
+    }
+    a.box-a .card{
+        box-shadow: 1px 1px 5px #162136; 
+    }
+    a.box-a:hover{
+        color: #ea802f;
+    }
+    a.box-a .card:hover{
+        // box-shadow: none;
+    }
+    .box-title{
+        padding-top: 10px;
+    }
+    .box-icon{
+        font-size: 40px;
+    }
+    // table{
+    //     display:block;
+    //     overflow:auto;
+    //     height:50vh;
+    //     width:100% !important;
+    // }
+//     thead, tbody { display: block; }
+
+// tbody {
+//     height: 100px;       /* Just for the demo          */
+//     overflow-y: auto;    /* Trigger vertical scroll    */
+//     overflow-x: hidden;  /* Hide the horizontal scroll */
+// }
+    tr{
+        padding: 0;
+    }
+    td, thead td{
+        padding: 0.1rem !important;
+        padding-bottom: 0.1rem !important;
+        margin: 0px;
+    }
+    .table-loader{
+        position: absolute;;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background:red;
+        z-index: 9999999;
+        top:20px;
+    }
+
+    .pagination-btn button{
+        
+    }
+    // table {
+    //     display: flex;
+    //     flex-flow: column;
+    //     height: 50vh;
+    //     width: 100%;
+    // }
+    // table thead {
+    //     /* head takes the height it requires, 
+    //     and it's not scaled when table is resized */
+    //     flex: 0 0 auto;
+    //     width: calc(100% - 0.9em);
+    // }
+    // table tbody {
+    //     /* body takes all the remaining available space */
+    //     flex: 1 1 auto;
+    //     display: block;
+    //     overflow-y: scroll;
+    // }
+    // table tbody tr {
+    //     width: 100%;
+    // }
+    // table thead, table tbody tr {
+    //     display: table;
+    //     table-layout: fixed;
+    // }
+    // thead{
+    //     display:block;
+    //     width: 100%;
+    // }
+// .sidebar .nav-dropdown a.nav-link.active {
+//     color: #5a696e;
+//     background: rgba(32, 91, 148, 0.1);
+//     border-left: 0;
+// }
+
+// .sidebar .nav-dropdown a.nav-link.active i{
+//     color: #000;
+// }
+// .sidebar .nav-dropdown.open {
+//     background: rgba(32, 91, 148, 0.1);
+//     color: #5a696e;
+// }   
+// .sidebar .nav-dropdown.open .nav-link {
+//     color: #5a696e;
+//     border-left: 0;
+// }
+
+.bg-warning{
+    background: -webkit-gradient(linear, left top, right top, from(#ffe11b), to(#be8300));
+}
+.bg-success{
+    background: -webkit-gradient(linear, left top, right top, from(#00d265), to(#039759));
+}
+.bg-info{
+    background: -webkit-gradient(linear, left top, right top, from(#27d2e1), to(#067a9d));
+}
+.bg-danger{
+    background: -webkit-gradient(linear, left top, right top, from(#f5431d), to(#ba0000));
+}
+.bg-light-gradient{
+    background: linear-gradient(to top, #cccccc 0%, #d8d8d8 1%, #ffffff 100%) !important;
+}
